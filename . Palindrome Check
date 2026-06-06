@@ -1,0 +1,7 @@
+value = "madam"
+
+if str(value) == str(value)[::-1]:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
+
