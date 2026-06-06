@@ -1,0 +1,14 @@
+num = 1234
+
+temp = num
+reverse = 0
+digit_sum = 0
+
+while temp > 0:
+    digit = temp % 10
+    reverse = reverse * 10 + digit
+    digit_sum += digit
+    temp //= 10
+
+print("Reverse =", reverse)
+print("Sum of Digits =", digit_sum)
